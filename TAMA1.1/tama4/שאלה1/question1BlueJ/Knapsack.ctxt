@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Knapsack
+comment1.params=aBottle\ aFlashlight\ myWeight
+comment1.target=Knapsack(Bottle,\ Flashlight,\ int)
+comment1.text=\r\n\ Creates\ a\ new\ knapsack.\r\n
+comment2.params=myBook
+comment2.target=void\ addBook(Book)
+comment2.text=\r\n\ add\ books\ to\ the\ list.\r\n
+comment3.params=
+comment3.target=int\ getWeight()
+comment3.text=\r\n\ Get\ the\ knapsack's\ tare\ weight.\r\n
+comment4.params=
+comment4.target=void\ toggleFlashlightState()
+comment4.text=\r\n\ Toggle\ the\ flashlight\ state\:\ from\ "on"\ to\ "off"\ and\ vice\ versa.\r\n
+comment5.params=
+comment5.target=int\ totalWeight()
+comment5.text=\r\n\ @return\ The\ total\ weight\ of\ the\ knapsack.\r\n
+comment6.params=
+comment6.target=void\ printStatus()
+comment6.text=\r\n\ Prints\ the\ total\ weight\ of\ the\ knapsack,\ and\ the\ stae\ of\ the\ flashlight\r\n
+numComments=7

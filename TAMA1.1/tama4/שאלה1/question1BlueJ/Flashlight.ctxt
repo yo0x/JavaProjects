@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=myWeight
+comment0.target=Flashlight(int)
+comment0.text=\r\n\ Creates\ a\ new\ flashlight.\r\n
+comment1.params=
+comment1.target=int\ getWeight()
+comment1.text=\r\n\ @return\ \ The\ weight\ of\ this\ book.\r\n
+comment2.params=
+comment2.target=boolean\ getState()
+comment2.text=\r\n\ Get\ the\ state\ of\ the\ flashlight.\r\n\ @return\ the\ state\ of\ the\ flashlight,\ as\ boolean.\r\n\ true\ indicates\ that\ the\ flashlight\ is\ on.\r\n
+comment3.params=
+comment3.target=void\ toggleState()
+comment3.text=\r\n\ Toggle\ the\ state\ of\ the\ flashlight\:\ from\ on\ to\ off,\ and\ vice\ versa.\r\n
+numComments=4

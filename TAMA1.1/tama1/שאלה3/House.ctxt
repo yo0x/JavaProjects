@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=House
+comment0.text=\r\n\ House()\ Class\ description,\r\n\ The\ Class\ has\ two\ one\ contructor,\ two\ valiables\ and\ one\ method.\r\n\ This\ class\ will\ make\ use\ of\ the\ class\ Turtle()\ to\ and\ make\ and\ instance\ of\ it\ inside\ the\ turtle1\ variable,\ then\ it\ calls\ the\ function\ WriteHouse().\ \r\n\ the\ function\ drawHouse()\ calls\ the\ instance\ of\ turtle1\ and\ its\ methods\ and\ draws\ a\ house\ with\ in\ the\ values\ stored\ in\ the\ variables\:\ alachsonSquare\ and\ angleTurn.\r\n\ Be\ aware\ that\ the\ values\ inside\ of\ turtle1.turnLeft\ at\ the\ end\ must\ be\ calculate\ manually\ (since\ we\ havent\ learned\ about\ Math\ libraries...\:(\ )\r\n\ have\ fun\!\ \r\n\r\n\r\n\ @author\ (Yonatan\ Orozko)\r\n\ @version\ (1.0)\r\n
+comment1.params=
+comment1.target=House()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ House\r\n
+comment2.params=
+comment2.target=void\ drawHouse()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=3

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=NameManipulations
+comment1.params=
+comment1.target=NameManipulations()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=void\ printNamesEndingWithN()
+comment2.text=\r\n\ Print\ all\ the\ names\ ending\ with\ "n"\:\r\n
+comment3.params=
+comment3.target=void\ addIsraeli()
+comment3.text=\r\n\ Add\ "Israeli"\ as\ a\ second\ surname,\ and\ print\ the\ new\ array\:\r\n
+comment4.params=
+comment4.target=void\ convertToCapitals()
+comment4.text=\r\n\ Convert\ the\ names\ into\ capital\ letters,\ and\ print\ the\ new\ array\:\r\n
+comment5.params=
+comment5.target=void\ printNames()
+comment5.text=\r\n\ Print\ the\ array\r\n
+comment6.params=
+comment6.target=void\ revert()
+numComments=7

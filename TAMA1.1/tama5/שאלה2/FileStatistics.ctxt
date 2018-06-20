@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=FileStatistics
+comment1.params=
+comment1.target=FileStatistics()
+comment1.text=\r\n\ Creates\ a\ new\ File\ stadistics\ wich\ will\ run\ all\ the\ other\ methods.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFileNameFromUser()
+comment2.text=\r\n\ This\ is\ encharge\ of\ asking\ the\ user\ from\ an\ input,\ repetly\ until\ the\ users\ enters\ no\ input,\ then\ it\ will\ exit\r\n\r\n\ \r\n\ \r\n
+comment3.params=
+comment3.target=void\ countWords()
+comment3.text=\r\n\ Methods\ wich\ counts\ the\ words\ inside\ the\ file\ and\ prit\ them\ out.\r\n\r\n
+comment4.params=
+comment4.target=void\ countSentences()
+comment4.text=\r\n\ This\ method\ counts\ the\ number\ of\ sentences\ in\ a\ file\ delimite\ with\ >?.\!.\r\n\ @param\ weight\ The\ weight\ of\ the\ book,\ in\ grams.\r\n
+comment5.params=
+comment5.target=void\ printFileStatistics()
+comment5.text=\r\n\ This\ method\ calls\ out\ the\ countWords\ and\ countSentences\ methods.\r\n\ The\ method\ also\ catches\ the\ error\ when\ the\ file\ is\ not\ found.\r\n\ \r\n
+numComments=6

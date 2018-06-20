@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=myWeight
+comment0.target=Book(int)
+comment0.text=\r\n\ Creates\ a\ new\ book.\r\n\ @param\ weight\ The\ weight\ of\ the\ book,\ in\ grams.\r\n
+comment1.params=
+comment1.target=int\ getWeight()
+comment1.text=\r\n\ Get\ the\ weight\ of\ the\ book.\r\n\ @return\ The\ weight\ of\ this\ book.\r\n
+numComments=2

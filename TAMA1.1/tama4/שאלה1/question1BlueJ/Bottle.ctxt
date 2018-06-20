@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Bottle
+comment0.text=\r\n\ A\ bottle\ with\ some\ weight.\r\n\ \r\n\ @author\ Dr.\ Dan\ Aharoni\r\n
+comment1.params=myWeight
+comment1.target=Bottle(int)
+comment1.text=\r\n\ Creates\ a\ new\ bottle.\r\n
+comment2.params=
+comment2.target=int\ getWeight()
+comment2.text=\r\n\ Get\ the\ weight\ of\ the\ book.\r\n\ @return\ \ \ The\ weight\ of\ this\ book.\r\n
+numComments=3

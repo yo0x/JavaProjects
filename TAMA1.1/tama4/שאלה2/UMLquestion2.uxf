@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>390</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>NameManipulations
+--
+
+--
+printNamesEndingWithN()
+addIsraeli()
+convertToCapitals()
+printNames()
+revert()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>320</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>java.util.Scanner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>340</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0;160.0;170.0</additional_attributes>
+  </element>
+</diagram>
