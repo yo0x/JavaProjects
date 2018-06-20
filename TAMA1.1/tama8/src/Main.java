@@ -1,5 +1,11 @@
-import javax.swing.text.DefaultEditorKit;
-
+/**
+ * This is simple program that creates Greeting cards of different kinds.
+ * Here we check all the functionality of the program, errors and much more.
+ *
+ * @author  Yon-or
+ * @version 1.0
+ * @since   2017-06-18
+ */
 public class Main {
 
 
@@ -30,8 +36,11 @@ public class Main {
             myRepo.addCards(myCards);
             myRepo.printAllCards();
             myRepo.printAges();
+        System.out.println("::::::::::::::::::::<<<>>>:::::::::::::::::::::::::");
+        System.out.println("Searching by sender");
+            myRepo.printAllCards(myRepo.getMyCardsBySender("someone Custom"));
             System.out.println("");
-            System.out.println(":::::::::::::::::::::::::::::::::::::::::::::");
+            System.out.println("::::::::::::::::::::::<<<>>>>:::::::::::::::::::::::");
              System.out.println("Repo with Custom cards");
 
              System.out.println("");

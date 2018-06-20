@@ -1,3 +1,10 @@
+/**
+ * This class handles all kinds of problems/exceptions.
+ *
+ * @author  Yon-or
+ * @version 1.0
+ * @since   2017-06-18
+ */
 public class errorCardHandler extends ArrayIndexOutOfBoundsException {
     private int errorId;
     private String senderError;
@@ -12,6 +19,9 @@ public class errorCardHandler extends ArrayIndexOutOfBoundsException {
         notifyUser(2 );
 
     }
+    /**
+     * Prints out a message with the description of the problem bing handled.
+     */
     public void notifyUser(int errorIdNot){
         switch (errorIdNot){
             case 1:

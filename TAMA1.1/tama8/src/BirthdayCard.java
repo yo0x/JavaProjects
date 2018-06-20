@@ -1,3 +1,10 @@
+/**
+ * Birthday greeting card.
+ *
+ * @author  Yon-or
+ * @version 1.0
+ * @since   2017-06-18
+ */
 public class BirthdayCard extends GreetingCard{
     protected int age = 33;
 
