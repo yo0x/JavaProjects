@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>102</x>
+      <y>240</y>
+      <w>126</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>BirthdayCard
+--
+- age: int
+--
+‬‬getAge();
+//‫‪Happy‬‬ ‫&gt;‪&lt;age‬‬ ‫!‪birthday‬‬</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>306</x>
+      <y>156</y>
+      <w>126</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>WeddingCard
+--
+//‫‪Best‬‬ ‫‪wishes‬‬ ‫‪for‬‬ ‫‪your‬‬ ‫!‪wedding‬‬
+WeddingCard()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>378</y>
+      <w>126</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>AdultBirthDayCard
+--
+//‫‪You‬‬ ‫‪haven't‬‬ ‫‪changed‬‬ ‫‪a‬‬ ‫!‪bit‬‬
+AdultBirthDayCard()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>516</x>
+      <y>156</y>
+      <w>126</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>GreetingCard
+--
+#recipient:Str
+#gretting:Str
+#sender:Str
+--
+GreetingCard(Str recipient, Str gretting, Str sender
+toString()
+getGreetingMsg()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>18</x>
+      <y>378</y>
+      <w>126</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>YouthBirthCard
+--
+//‫‪How‬‬ ‫‪you‬‬ ‫‪have‬‬ ‫!‪grown‬‬
+YouthBirthCard()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>684</x>
+      <y>156</y>
+      <w>126</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>CustomCard
+--
+//input.
+
++ CustomCard()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>114</x>
+      <y>48</y>
+      <w>126</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Main
+--
+//input.
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>498</x>
+      <y>48</y>
+      <w>210</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>‫‪Greeting‬‬Cards‬Repository‬
+--
+‬max_cards: int
+--
+‫‪Greeting‬‬Cards‬Repository‬(int num_cards)
+printAges()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>108</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;140.0;50.0;10.0;50.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>426</x>
+      <y>240</y>
+      <w>102</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>174</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>222</x>
+      <y>258</y>
+      <w>366</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>590.0;10.0;590.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>204</x>
+      <y>342</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>342</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>84</y>
+      <w>276</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+</diagram>
