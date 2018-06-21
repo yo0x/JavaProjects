@@ -2,7 +2,7 @@
 /**
  * Write a description of class Parcel here.
  *
- * @author (your name)
+ * @author Yon-or
  * @version (a version number or a date)
  */
 import java.util.*;
@@ -52,7 +52,7 @@ public class Parcel
             BlueRayList.add(bR);
             prtLn("BlueRay added to the Parcel");
         }else {
-            prtLn("You have already fill maximum amount of Books allowed in the Parcel"); 
+            prtLn("You have already fill maximum amount of Books allowed in the Parcel");
 
         }
     }
@@ -69,7 +69,7 @@ public class Parcel
                 prtLn("You can' add "+noOfOdysseyCopies+" becouse it will pass the limit 100! but you can add: "+(100 - (QuarterlyOdysseyList.size()))+" items more");
             }else{
                 QuarterlyOdysseyList.add(noOfOdysseyCopies);
-               // for(int i = QuarterlyOdysseyList.size(); i<(QuarterlyOdysseyList.size()+noOfOdysseyCopies);i++){                                                 
+               // for(int i = QuarterlyOdysseyList.size(); i<(QuarterlyOdysseyList.size()+noOfOdysseyCopies);i++){
                 //}
                 prtLn("You have added: "+noOfOdysseyCopies+" items");
             }
@@ -125,5 +125,5 @@ public class Parcel
         return (BlueRayList);
     }
 
-    
+
 }

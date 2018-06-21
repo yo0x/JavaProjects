@@ -1,8 +1,8 @@
 
 /**
  * A bottle with some weight.
- * 
- * @author Dr. Dan Aharoni
+ *
+ * @author Yon-or
  */
 class Bottle
 {
@@ -27,4 +27,3 @@ class Bottle
         return weight;
     }
 }
-

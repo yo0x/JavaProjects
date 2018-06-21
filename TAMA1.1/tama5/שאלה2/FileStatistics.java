@@ -2,7 +2,7 @@
 /**
  * This class prints some stadistics about the file loaded.
  *
- * @author (Yonatan Orozko -Yonor-)
+ * @author ( -Yonor-)
  * @version (1.1)
  */
 
@@ -35,8 +35,8 @@ public class FileStatistics
     /**
      * This is encharge of asking the user from an input, repetly until the users enters no input, then it will exit
      *
-     * 
-     * 
+     *
+     *
      */
     public String getFileNameFromUser(){
         System.out.println("");
@@ -100,7 +100,7 @@ public class FileStatistics
     /**
      * This method calls out the countWords and countSentences methods.
      * The method also catches the error when the file is not found.
-     * 
+     *
      */
     public void printFileStatistics()
     {

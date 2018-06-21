@@ -2,8 +2,8 @@
 /**
  * A flashlight with some weight. It can be on or off.
  * At the beginning, the flashlight is off.
- * 
- * @author Dr. Dan Aharoni
+ *
+ * @author Yon-or
  */
 class Flashlight
 {
@@ -31,7 +31,7 @@ class Flashlight
     {
         return weight;
     }
-    
+
     /**
      * Get the state of the flashlight.
      * @return the state of the flashlight, as boolean.
@@ -41,7 +41,7 @@ class Flashlight
     {
         return isOn;
     }
-    
+
     /**
      * Toggle the state of the flashlight: from on to off, and vice versa.
      */
@@ -51,4 +51,3 @@ class Flashlight
     }
 
 }
-

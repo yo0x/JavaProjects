@@ -1,14 +1,14 @@
 
 /**
  * A Book with some weight.
- * 
- * @author Dr. Dan Aharoni
+ *
+ * @author Yon-or
  */
 class Book
 {
     /** The weight of the book, in grams. */
     int weight;
-    
+
     /**
      * Creates a new book.
      * @param weight The weight of the book, in grams.

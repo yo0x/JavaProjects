@@ -2,12 +2,12 @@
 /**
  * Simulates a knapsack which contains a book, a bottle and a flashlight.
  * It can compute its total weight, and can change its flashlight state.
- * 
+ *
  * @see Book
  * @see Flashlight
  * @see Bottle
- * 
- * @author Dr. Dan Aharoni
+ *
+ * @author Yon-or
  * @version 1
  */
 import java.util.*;
@@ -28,18 +28,18 @@ class Knapsack
     Knapsack(Bottle aBottle,  Flashlight aFlashlight, int myWeight)
     {
         // Initialize instance variables
-        
+
         bottle = aBottle;
         flashlight = aFlashlight;
         weight = myWeight;
     }
-    
+
     /**
      * add books to the list.
      */
     void addBook(Book myBook)
     {
-        
+
         bookList.add(myBook);
     }
     /**
@@ -66,7 +66,7 @@ class Knapsack
         int toWeightBooks =0;
         for(int i=0; i<bookList.size(); i++){
             toWeightBooks += bookList.get(i).getWeight();
-            
+
         }
         return toWeightBooks + bottle.getWeight() + flashlight.getWeight() + weight;
     }

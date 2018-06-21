@@ -2,8 +2,8 @@
  * This class is an improved version of the same named class from project "Names" .
  * Here, the array is filled by first asking  the user to enter a number which defines the length
  * of the array, and then asking the user to enter the names.
- *  
- * @author Dan Aharoni 
+ *
+ * @author Yon-or
  */
 
 import java.util.Scanner;
@@ -24,7 +24,7 @@ class NameManipulations
         int n = sc.nextInt(); // Number of names in the array
         names = new String[n];
         sc.nextLine(); // Clears the scanner from the /n that was left by the last integer entered by the user
-        
+
         System.out.println("Please enter " + n + " names:");
         for (int i=0; i<n; i++)  {
             System.out.print(i+1 + " : ");
@@ -34,7 +34,7 @@ class NameManipulations
         System.out.println("Array is ready.\n");  // The \n jumps an extra line in the output screen.
 
     } // end of constructor
-    
+
     /**
      * Print all the names ending with "n":
      */
@@ -83,10 +83,10 @@ class NameManipulations
     void revert()
     {
         for(int i=0; i<names.length; i++)
-            names[i] = names[i].replaceAll("Israeli", "");    
+            names[i] = names[i].replaceAll("Israeli", "");
         System.out.println("Added \"Israeli\".");
         printNames();
-    
+
     }
-    
+
 }

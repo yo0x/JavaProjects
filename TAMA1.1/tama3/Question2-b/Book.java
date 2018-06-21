@@ -2,7 +2,7 @@
 /**
  * Write a description of class Book here.
  *
- * @author (your name)
+ * @author Yon-or
  * @version (a version number or a date)
  */
 public class Book
@@ -31,14 +31,14 @@ public class Book
     public String getName()
     {
         // put your code here
-        
+
         return name;
     }
-    
+
     public int getPages()
     {
         // put your code here
-        
+
         return noPages;
     }
 }
