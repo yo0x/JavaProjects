@@ -1,2 +1,3 @@
-# JavaProjects
-Some java projects i have worked on. 
+# Kinneret College - Java - Basics
+This repo represent a collection of basic Java-exercises to future student reference.
+Feel free to use it in your learning env.
